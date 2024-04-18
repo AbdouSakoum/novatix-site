@@ -8,41 +8,75 @@
                     <div class="sx-about-bx4-media">
                         <div class="sx-ab4-img-outer">
                             <div class="sx-ab4-media">
-                                <img src="assets/images/about/p3.jpg" alt="media">
+                                <img src="assets/images/about/image5.jpg" alt="media">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" *ngIf="from == 1">
                     <div class="sx-about-bx4-content">
-                        <h2 class="sx-title">Why Choose Us to Join Our Work?</h2>
-                        <p>Nulla facilisi. Nullam congue, tortor id finibus posuere, risus magna convallis
-                            massa, sit amet gr est tellus vitae dui. Proin hendrerit diam a commodo aliquam.
-                            In vitae interdum odio. Duis sitam nisl eget odio facilisis lacinia.</p>
-
-
-                        <ul class="sx-arrow-circle-checked">
-                            <li>One-time security check fee: $99.95</li>
-                            <li>Elite membership fee: $999.95 per month</li>
-                            <li>Coast-to-coast domestic flights: from $3,799.95</li>
+                        <h2 class="sx-title">Développement informatique sur Mesure</h2>
+                        <p>
+                            Que vous ayez besoin d'une solution logicielle sur mesure pour rationaliser vos processus commerciaux ou d'une application (sites web) robuste pour fidéliser vos clients, notre équipe de développeurs talentueux est là pour concrétiser votre vision.
+                        </p>
+                        <!-- <ul class="sx-arrow-circle-checked">
+                            <li>Expertise</li>
+                            <li>Innovation</li>
+                            <li>Approche Axée sur le Client</li>
+                            <li>Fiabilité</li>
                         </ul>
 
                         <a routerLink="/company/why-choose-us" class="site-button sx-btn-primary icon sx-btn-lg">
                             <i class="fa  fa-long-arrow-right"></i>
-                            View All
-                        </a>
-
-
+                            Voir tout
+                        </a> -->
                     </div>
                 </div>
-
-
+                <div class="col-lg-6 col-md-12" *ngIf="from == 2">
+                    <div class="sx-about-bx4-content">
+                        <h2 class="sx-title">Conseil en Informatique</h2>
+                        <p>
+                            Bénéficiez de notre expertise pour optimiser votre infrastructure informatique, améliorer l'efficacité opérationnelle et aligner vos investissements technologiques sur vos objectifs commerciaux. Nos consultants travaillent en étroite collaboration avec vous pour élaborer des plans stratégiques qui favorisent l'innovation et maximisent le ROI.                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12" *ngIf="from == 3">
+                    <div class="sx-about-bx4-content">
+                        <h2 class="sx-title">Solutions de Cybersécurité</h2>
+                        <p>
+                            Protégez vos données précieuses et sécurisez votre entreprise contre les menaces cybernétiques en constante évolution grâce à nos solutions de cybersécurité complètes. Des évaluations des risques à la détection des menaces, en passant par la réponse aux incidents et la conformité, nous vous couvrons.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12" *ngIf="from == 4">
+                    <div class="sx-about-bx4-content">
+                        <h2 class="sx-title">Services Cloud</h2>
+                        <p>
+                            Adoptez l'agilité et la scalabilité du cloud avec notre gamme de services cloud. Que vous souhaitiez migrer vers le cloud, optimiser votre environnement cloud existant ou développer des applications natives du cloud, nous avons l'expertise pour vous aider à réussir.                        
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12" *ngIf="from == 5">
+                    <div class="sx-about-bx4-content">
+                        <h2 class="sx-title">Services Informatiques Gérés</h2>
+                        <p>
+                            Concentrez-vous sur votre cœur de métier pendant que nous nous occupons de vos besoins informatiques. Nos services informatiques gérés englobent la surveillance proactive, la maintenance et le support pour garantir le bon fonctionnement et la sécurité de vos systèmes 24 heures sur 24, 7 jours sur 7.                        
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12" *ngIf="from == 6">
+                    <div class="sx-about-bx4-content">
+                        <h2 class="sx-title">Développement d'Applications Mobiles</h2>
+                        <p>
+                            Restez connecté avec vos clients en déplacement grâce à nos services innovants de développement d'applications mobiles. De iOS et Android aux solutions multiplateformes, nous proposons des applications mobiles conviviales et performantes qui stimulent l'engagement et les revenus.                        
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!--testimonial section -->
-        <app-section-testimonials2></app-section-testimonials2>
+        <!-- Section de témoignages -->
+        <!-- <app-section-testimonials2></app-section-testimonials2> -->
 
     </div>
 

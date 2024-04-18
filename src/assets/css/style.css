@@ -7010,6 +7010,7 @@ large-title-block
 	padding:50px;
 	background: var(--white);
 	border: 2px solid #F6F6F6;
+	height: 400px;
 }
 .sx-icon-bx-1 .sx-icon-bx-icon{
 	text-align: left;

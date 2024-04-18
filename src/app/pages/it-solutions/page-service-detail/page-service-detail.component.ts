@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-page-service-detail',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./page-service-detail.component.css']
 })
 export class PageServiceDetailComponent {
+  @Input() from = 1;
 
 }
