@@ -1,0 +1,59 @@
+# compiled output
+/distOpt
+/tmp
+/out-tsc
+/generafi
+/android
+# dependencies
+/node_modules
+/projects/gf-infrastructure/node_modules
+/projects/gf-common/node_modules
+/projects/gf-components/node_modules
+/projects/gf-themes/node_modules
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+/docs
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Winrar files
+
+*.tgz
+*.rar
+env.js
+
+#Report npm issues
+report.*.json
+
+#mobile
+platforms/
+plugins/
+www/
