@@ -12,7 +12,7 @@ export class InnerPagesLayoutComponent implements OnDestroy {
   private _event: any;
   _data = {};
 
-  constructor(private router: Router) {
+  constructor(public router: Router) {
     this._event = this.router.events.subscribe((event: Event) => {      
       if (event instanceof NavigationEnd) {
         this._data = setBannerData(event.url)

@@ -7,9 +7,9 @@
     <!-- CONTENT START -->
     <div class="page-content">
 
-        <!-- INNER PAGE BANNER -->
-        <app-banner *ngIf="(_data | json) != '{}'" [data]="_data"></app-banner>
-        <!-- INNER PAGE BANNER END -->
+        <ng-container *ngIf="!router.url.includes('company/contact')">
+            <app-banner *ngIf="(_data | json) != '{}'" [data]="_data"></app-banner>
+        </ng-container>
 
         <router-outlet></router-outlet>
 

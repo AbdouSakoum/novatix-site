@@ -36,7 +36,7 @@ HEADER (top part of page)
 }
 
 .header-style1 .logo-header-inner {display: table-cell;vertical-align: middle;height: 100%;}
-.header-style1 .logo-header-inner img {max-width: 70px;max-height: 100%;}
+.header-style1 .logo-header-inner img {max-width: 140px;max-height: 100%;}
 
 /*-------------------------------------
 	eamil-phone (left) 
